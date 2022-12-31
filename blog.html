@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MSU-Iligan Institute of Tech.</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+  </head>
+  <body>
+    <section class="subHeader">
+        <nav>
+            <a href="index.html"> <img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa-solid fa-square-xmark" onclick="hideMenu()"></i>
+                  <ul>
+                     <li> <a href="index.html">HOME</a></li> 
+                     <li> <a href="About.html">ABOUT</a></li> 
+                     <li> <a href="course.html">COURSE</a></li> 
+                     <li> <a href="blog.html">BLOG</a></li> 
+                     <li> <a href="contact.html">CONTACT</a></li>
+                     <li> <a href="https://docs.google.com/forms/d/e/1FAIpQLScxLKlWEghMW03AgNRSdONYKvDpXZxSMUQjFUI2GI1qYE8FLA/viewform?fbclid=IwAR3ybQILXFTo6EoaNsFP01eJp9dVEE4a5tsvT2vabpVRPnrFimgAp-dP2kw" class="apply-button red-button2">APPLY NOW</a></li>   
+                  </ul>
+            </div>
+            <i class="fa-solid fa-bars" click="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate and Online Programs for 2023</h1>
+    </section>
+
+<!-- ======== blog page content =========== -->
+    <section class="blog-content">
+          <div class="row">
+                <div class="blog-left">
+                  <img src="images/certificate.jpg">
+                  <h2>Our Certificate and Online Programs for 2023</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ad ipsum dolorum distinctio qui expedita itaque eos explicabo quidem corrupti eligendi veritatis reiciendis eaque nostrum, corporis omnis beatae assumenda nesciunt?</p> <br>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse earum nihil provident temporibus. Ratione at officia, nemo, esse voluptatem eligendi minus dicta vitae ad ipsa ducimus illo odit explicabo suscipit.</p> <br>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium veniam autem sapiente quis eaque consequatur nesciunt quam unde illum veritatis at fuga, ipsam culpa quidem! Cumque dolorum quasi veniam est.</p><br>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium veniam autem sapiente quis eaque consequatur nesciunt quam unde illum veritatis at fuga, ipsam culpa quidem! Cumque dolorum quasi veniam est.</p>
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your comment"></textarea>
+                            <button type="submit" class="visit-button red-button">POST COMMENT
+                            </button>
+
+                        </form>
+
+                    </div>
+                </div> 
+                   
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                      <span>Business Analytics</span>
+                      <span>33</span>
+                    </div>
+                    <div>
+                      <span>Data Science</span>
+                      <span>38</span>
+                    </div>
+                    <div>
+                      <span>Machine Learning</span>
+                      <span>19</span>
+                    </div>
+                    <div>
+                      <span>Computer Science</span>
+                      <span>46</span>
+                    </div>
+                    <div>
+                      <span>AutoCAD</span>
+                      <span>42</span>
+                    </div>
+                    <div>
+                      <span>Commerce</span>
+                      <span>29</span>
+                    </div>
+                </div>
+          </div>
+    </section>
+
+<!-- ======= Facilities============ -->
+
+
+
+<!-- ======= Footer ============ -->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed culpa officia perferendis ipsam quia vero omnis harum vel iure nostrum tenetur<br> quo molestias magni nesciunt doloribus rem, ab architecto ullam!</p>
+  <div class="icons">
+    <i class="fa-brands fa-square-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <i class="fa-brands fa-linkedin"></i>
+  </div>
+  <p id="yamz">Copyright @ Yamz Solutions</p>
+</section>
+
+    <!-- ======= JavaScript for toggle menu ============ -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+          navLinks.style.right = "0";
+        }
+        function hideMenu(){
+          navLinks.style.right = "-200px";
+        }
+        
+    </script>
+
+  </body>
+</html>
